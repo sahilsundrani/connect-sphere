@@ -12,26 +12,30 @@ export async function POST(req: Request) {
         if (!profile) {
             return new NextResponse("Unauthorised", { status: 401 });
         }
-
+        // this can be optimized 
         const server = await db.server.create({
             data: {
                 profileId: profile.id,
                 name,
                 imageUrl,
                 inviteCode: uuidv4(),
-                channels: {
-                    create: [
-                        { name: "general", profileId: profile.id }
-                    ]
-                },
-                members: {
-                    create : [
-                        { profileId: profile.id, role: MemberRole.ADMIN }
-                    ]
-                },
             }
         });
-        console.log(server);
+        const channels = await db.channel.create({
+            data: {
+                name: "general",
+                profileId: profile.id,
+                serverId: server.id
+            }
+        });
+        const members = await db.member.create({
+            data: {
+                profileId: profile.id,
+                role: MemberRole.ADMIN,
+                serverId: server.id
+            }
+        });
+        // till here
         return NextResponse.json(server);
     } catch (error) {
         console.log("[SERVERS_POST",error);

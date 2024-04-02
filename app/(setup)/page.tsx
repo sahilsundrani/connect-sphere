@@ -6,21 +6,29 @@ import { InitialModal } from "@/components/modals/initial-modal";
 
 const SetupPage = async () => {
   const profile = await initialProfile();
+
+  //this can be optimized
+  const members = await db.member.findMany({
+    where:{
+        profileId: profile.id
+    }
+  })
+
+  if(members.length === 0){
+    return <InitialModal />;
+  }
+
   const server = await db.server.findFirst({
-    // where: {
-    //   members: {
-    //     some: {
-    //       profileId: profile.id
-    //     }
-    //   }
-    // }
+    where: {
+      id: members[0].serverId
+    }
   });
-  
+  // till here
+
   if (server) {
     return redirect(`/servers/${server.id}`);
   }
 
-  return <InitialModal />;
 }
  
 export default SetupPage;

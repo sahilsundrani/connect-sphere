@@ -15,15 +15,23 @@ const NavigationSidebar = async () => {
 
     if (!profile) return redirect("/");
 
-    const servers = await db.server.findMany({
-        where: {
-            // members: {
-            //     some: {
-            //         profileId: profile.id
-            //     }
-            // }
+    const members = await db.member.findMany({
+        where:{
+            profileId: profile.id
         }
     })
+
+    let servers = [];
+    for (let i = 0; i < members.length; i++){
+        const server = await db.server.findUnique({
+            where: {
+                id: members[i].serverId
+            }
+        })
+        servers.push(server);
+    }
+
+    // console.log(servers);
 
     return (
         <div
