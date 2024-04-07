@@ -15,6 +15,7 @@ const NavigationSidebar = async () => {
 
     if (!profile) return redirect("/");
 
+    //this part can be optimized 
     const members = await db.member.findMany({
         where:{
             profileId: profile.id
@@ -31,6 +32,7 @@ const NavigationSidebar = async () => {
         servers.push(server);
     }
 
+    //till here
     // console.log(servers);
 
     return (

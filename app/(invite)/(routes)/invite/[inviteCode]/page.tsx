@@ -29,6 +29,11 @@ const InviteCodePage = async ({
       inviteCode: params.inviteCode,
     }
   });
+
+  if (!existingServer) {
+    return redirect("/");// can add a toast saying invalid invite code
+  }
+
   let serverId = existingServer?.id;
   const existingMember = await db.member.findFirst({
     where: {

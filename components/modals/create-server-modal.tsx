@@ -133,5 +133,3 @@ export const CreateServerModal = () => {
         </Dialog>
     );
 }
- 
-// export default InitialModal;
