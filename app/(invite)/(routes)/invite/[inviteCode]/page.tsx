@@ -23,38 +23,37 @@ const InviteCodePage = async ({
     return redirect("/");
   }
 
-  //this can be optimized
   const existingServer = await db.server.findFirst({
     where: {
       inviteCode: params.inviteCode,
+      members: {
+        some: {
+          profileId: profile.id
+        }
+      }
     }
   });
 
-  if (!existingServer) {
-    return redirect("/");// can add a toast saying invalid invite code
+  if (existingServer) {
+    return redirect(`/servers/${existingServer.id}`);
   }
-
-  let serverId = existingServer?.id;
-  const existingMember = await db.member.findFirst({
+  const server = await db.server.update({
     where: {
-        serverId,
-        profileId: profile.id,
-    }
-  });
-  if (existingMember && existingServer) {
-    return redirect(`/servers/${serverId}`);
-  }
-
-  const newMember = await db.member.create({
+      inviteCode: params.inviteCode,
+    },
     data: {
-        profileId: profile.id,
-        serverId,
+      members: {
+        create: [
+          {
+            profileId: profile.id,
+          }
+        ]
+      }
     }
   });
-  // till here
 
-  if (newMember) {
-    return redirect(`/servers/${serverId}`);
+  if (server) {
+    return redirect(`/servers/${server.id}`);
   }
   
   return null;
