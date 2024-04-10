@@ -32,10 +32,6 @@ export async function POST(req: Request) {
                     },
                 },
             },
-            include: {
-                channels: true,
-                members: true,
-            },
         });
 
         return NextResponse.json(server);
