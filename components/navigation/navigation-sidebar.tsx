@@ -10,7 +10,7 @@ import { db } from "@/lib/db";
 import { NavigationAction } from "@/components/navigation/navigation-action";
 import { NavigationItem } from "@/components/navigation/navigation-item";
 
-const NavigationSidebar = async () => {
+export const NavigationSidebar = async () => {
     const profile = await CurrentProfile();
 
     if (!profile) return redirect("/");
@@ -66,6 +66,4 @@ const NavigationSidebar = async () => {
             </div>
         </div>
     );
-}
- 
-export default NavigationSidebar;
+};
