@@ -165,5 +165,4 @@ To run this project, you will need to add the following environment variables to
 
 ## Support
 
-For support, email sahilsundrani213@gmail.com or join our Slack channel.
-
+For support, email sahilsundrani213@gmail.com
