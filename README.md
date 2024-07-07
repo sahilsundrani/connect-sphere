@@ -74,24 +74,38 @@ Delete the server.
 
 <img width="1440" alt="Screenshot 2024-07-08 at 4 35 11 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/ccbf3145-d6e9-4d59-9b30-b60aeb0b2183">
 
-
-// this can be removed
-<img width="1440" alt="Screenshot 2024-07-08 at 4 35 18 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/1662bd50-f237-4d54-94a5-3e6cd2c5f768">
-
 Add another server using Plus icon.
 
 <img width="1440" alt="Screenshot 2024-07-08 at 4 35 25 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/8974f727-218f-4fa3-8e34-130b312dcf1c">
 
-<img width="1440" alt="Screenshot 2024-07-08 at 4 38 54 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/a65678cb-41ca-4d59-80f4-dab68bcdbc1e">
-<img width="1440" alt="Screenshot 2024-07-08 at 4 38 39 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/e463480d-2828-4e0c-9818-4d5b08081cfa">
-<img width="1440" alt="Screenshot 2024-07-08 at 4 38 27 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/07f1fc40-2e96-4f46-a09c-18a27f3e8d08">
-<img width="1440" alt="Screenshot 2024-07-08 at 4 38 19 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/6762b740-3aec-4f3f-b7bf-85aca204ecd7">
-<img width="1440" alt="Screenshot 2024-07-08 at 4 37 50 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/16bb8dc5-4a9f-4dd7-9ca9-b49c203f124d">
-<img width="1440" alt="Screenshot 2024-07-08 at 4 37 33 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/7dc51bb4-6bb1-4138-a726-9294915d3fdb">
-<img width="1440" alt="Screenshot 2024-07-08 at 4 37 18 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/e92fab9e-cf77-4337-9871-d45bc5c56d8c">
-<img width="1440" alt="Screenshot 2024-07-08 at 4 37 09 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/958638bd-6c13-4e7f-8b75-98d50f4b8e3e">
-<img width="1440" alt="Screenshot 2024-07-08 at 4 35 56 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/4af336e5-3544-4224-9952-09ef7fbb7856">
+Create another text, audio, and video channel.
+
 <img width="1440" alt="Screenshot 2024-07-08 at 4 35 43 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/b96e8524-f1e7-4e8c-be59-db9544fc1380">
+
+Joining video chat from user 1.
+
+<img width="1440" alt="Screenshot 2024-07-08 at 4 35 56 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/4af336e5-3544-4224-9952-09ef7fbb7856">
+
+Joining video chat from user 2, along with chat support within video conference.
+
+<img width="1440" alt="Screenshot 2024-07-08 at 4 37 09 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/958638bd-6c13-4e7f-8b75-98d50f4b8e3e">
+
+Search all channels and members within the server.
+
+<img width="1440" alt="Screenshot 2024-07-08 at 4 38 39 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/e463480d-2828-4e0c-9818-4d5b08081cfa">
+
+Managing member roles.
+
+<img width="1440" alt="Screenshot 2024-07-08 at 4 38 54 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/a65678cb-41ca-4d59-80f4-dab68bcdbc1e">
+
+Deleting message.
+
+<img width="1440" alt="Screenshot 2024-07-08 at 4 38 27 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/07f1fc40-2e96-4f46-a09c-18a27f3e8d08">
+
+Editing message.
+
+<img width="1440" alt="Screenshot 2024-07-08 at 4 38 19 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/6762b740-3aec-4f3f-b7bf-85aca204ecd7">
+
 
 
 ## Run Locally
