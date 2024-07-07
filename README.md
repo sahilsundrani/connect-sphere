@@ -50,10 +50,37 @@ ConnectSphere is a comprehensive real-time communication platform designed to su
 
 <img width="1440" alt="Screenshot 2024-07-08 at 4 33 40 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/585e15e3-5968-4f1c-9b4f-fb92f3cbb2bd">
 
-Home page of server,
+Home page of server.
 
 <img width="1440" alt="Screenshot 2024-07-08 at 4 33 59 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/900c2728-f9b6-406a-8ec1-82c8677e3569">
 
+Sending messages to channels.
+
+<img width="1440" alt="Screenshot 2024-07-08 at 4 34 25 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/2e91dcad-c753-437c-97c6-5b152d04daf3">
+
+Manage channel settings. 
+
+<img width="1440" alt="Screenshot 2024-07-08 at 4 34 40 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/80f35b62-29b1-47a5-8622-bb073e5346e5">
+
+Customising server.
+
+<img width="1440" alt="Screenshot 2024-07-08 at 4 34 47 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/ccc428c9-d4cc-45ea-ae40-4540bdc23f90">
+
+Invite friends to server.
+
+<img width="1440" alt="Screenshot 2024-07-08 at 4 35 01 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/1fdb2103-bccf-452d-81c9-1548b5dbd54b">
+
+Delete the server.
+
+<img width="1440" alt="Screenshot 2024-07-08 at 4 35 11 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/ccbf3145-d6e9-4d59-9b30-b60aeb0b2183">
+
+
+// this can be removed
+<img width="1440" alt="Screenshot 2024-07-08 at 4 35 18 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/1662bd50-f237-4d54-94a5-3e6cd2c5f768">
+
+Add another server using Plus icon.
+
+<img width="1440" alt="Screenshot 2024-07-08 at 4 35 25 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/8974f727-218f-4fa3-8e34-130b312dcf1c">
 
 <img width="1440" alt="Screenshot 2024-07-08 at 4 38 54 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/a65678cb-41ca-4d59-80f4-dab68bcdbc1e">
 <img width="1440" alt="Screenshot 2024-07-08 at 4 38 39 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/e463480d-2828-4e0c-9818-4d5b08081cfa">
@@ -65,13 +92,6 @@ Home page of server,
 <img width="1440" alt="Screenshot 2024-07-08 at 4 37 09 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/958638bd-6c13-4e7f-8b75-98d50f4b8e3e">
 <img width="1440" alt="Screenshot 2024-07-08 at 4 35 56 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/4af336e5-3544-4224-9952-09ef7fbb7856">
 <img width="1440" alt="Screenshot 2024-07-08 at 4 35 43 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/b96e8524-f1e7-4e8c-be59-db9544fc1380">
-<img width="1440" alt="Screenshot 2024-07-08 at 4 35 25 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/8974f727-218f-4fa3-8e34-130b312dcf1c">
-<img width="1440" alt="Screenshot 2024-07-08 at 4 35 18 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/1662bd50-f237-4d54-94a5-3e6cd2c5f768">
-<img width="1440" alt="Screenshot 2024-07-08 at 4 35 11 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/ccbf3145-d6e9-4d59-9b30-b60aeb0b2183">
-<img width="1440" alt="Screenshot 2024-07-08 at 4 35 01 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/1fdb2103-bccf-452d-81c9-1548b5dbd54b">
-<img width="1440" alt="Screenshot 2024-07-08 at 4 34 47 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/ccc428c9-d4cc-45ea-ae40-4540bdc23f90">
-<img width="1440" alt="Screenshot 2024-07-08 at 4 34 40 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/80f35b62-29b1-47a5-8622-bb073e5346e5">
-<img width="1440" alt="Screenshot 2024-07-08 at 4 34 25 AM" src="https://github.com/sahilsundrani/connect-sphere/assets/88895325/2e91dcad-c753-437c-97c6-5b152d04daf3">
 
 
 ## Run Locally
